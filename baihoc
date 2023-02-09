@@ -1,0 +1,11 @@
+1. setup server
++ Use express
++ get port:3000 by .listen
++ Use (morgan) when client sever reset again, sever will get ip and time
++ Connect postman by install body-parser and set up body-parser
+
+2. Make api Router (MiddleWare)
++ Setup express
++ Setup express.Router
++ Each method must have route to determine route address
++ Use Get / POST / PUT / DELECT

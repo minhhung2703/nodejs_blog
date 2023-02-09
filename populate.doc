@@ -1,0 +1,20 @@
+viet cau lenh populate(truong nao trong data)
+schema: ref => model nao
+
+1 lan populate
+    .populate
+
+feild nested cha con
+-   listCourse: {
+        course: {
+            type: String,
+                ref: ''
+        }
+    }
+    .populate('listCourse.course')
+
+2 lan populate
+    .populate({
+        path: 'truong nao so1',
+        populate: { path: 'truong nao so2 trong truong nao so1' }
+    })

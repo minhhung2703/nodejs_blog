@@ -1,0 +1,19 @@
+Lesson 1:
+    + Install mongoose
+    + Connect mongoose by mongoose.connect('mongodb://localhost:/ address');
+    + Declare  variable1 = mongoose.Schema
+    + Declare  variable2 = new variable1
+    + After varaiable2 must have collection of studio 3T
+Lesson 2:
+    + Method1: find / create / updateOne / updateMany / deleteOne / deleteMany
+    + After Method1 must have promise( then(data) - catch(err)) to return data
+    + sort : " arrange"
+    + skip
+    + limit
+Lesson 3: Operation
+    + " $gt "  : " > "
+    + " $lt "  : " < "
+    + " $gte " : " >= "
+    + " $lte " : " <= "
+    + " $or "  : " || " => Example: $or: [option1,option2,...]
+    + " $in "  : " trong khoang " => Example: $in :[300, 500]
